@@ -19,7 +19,7 @@ In this repository, we provide code for **S**entiment **E**xpression **C**onvers
 
 ## Datasets
 To use the `implicit_sentiment` labeling provided by [SCAPT-ABSA](https://github.com/Tribleave/SCAPT-ABSA), we reformatted the data from [SemEval2014 Laptop/Restaurant]() following [ASGCN](https://github.com/GeneZC/ASGCN) and appended a label to each sample, which indicates whether it is an implicit sentiment expression ("Y" and "N" indicate the implicit and explicit sentiment expression respectively).
-The paraphrased sentences for each datasets are provided in `data/paraphrased_data`.
+The data and paraphrased sentences for each datasets are provided in `data` and `data/paraphrased_data`.
 
 
 ## Usage
